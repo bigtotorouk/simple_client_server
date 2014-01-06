@@ -3,6 +3,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 import json
 from django.views.decorators.csrf import csrf_exempt
+from django.core.files.base import ContentFile
 
 @csrf_exempt
 def jokes(request):
@@ -17,6 +18,11 @@ def jokes(request):
         tags = req['tags']
         print 'tags ', tags
         joke.add_tags(tags)
+        joke.img = request.FILES.get('image')
+        try:
+            joke.img.save()
+        except:
+            return HttpResponse(json.dumps({"status":"0","msg":"save image error"}))
         return HttpResponse(json.dumps({"status": "1", "joke":joke.to_json(), "msg": "success"}), content_type= 'Application/json')
     elif request.method == 'GET':
         # GET LIST OBJECT
@@ -31,6 +37,12 @@ def jokes(request):
             return list_page(type, page, count)
 
     return HttpResponse(json.dumps({"status": "0", "msg": "fail"}), content_type= 'Application/json')
+
+def handle_uploaded_file(filename, f):
+    destination = open('some/file/name.txt', 'wb+')
+    for chunk in f.chunks():
+        destination.write(chunk)
+    destination.close()
 
 @csrf_exempt
 def joke(request, joke_id):
