@@ -44,6 +44,9 @@ def handle_uploaded_file(filename, f):
         destination.write(chunk)
     destination.close()
 
+def upload_file(request):
+    return HttpResponse("HelloWorld")
+
 @csrf_exempt
 def joke(request, joke_id):
     if request.method == 'GET':

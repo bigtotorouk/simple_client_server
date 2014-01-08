@@ -12,12 +12,15 @@ class Tag(models.Model):
     class Meta:
         ordering = ('name',)
 
+class Photo(models.Model):
+    image = models.ImageField(upload_to='onedayonejoke/images')
+
 class Joke(models.Model):
     category = models.CharField(max_length=100)
     tags = models.ManyToManyField(Tag, blank=True)
     title = models.CharField(max_length=100)
     content = models.TextField()
-    img = models.ImageField(upload_to='onedayonejoke/images')
+    image = models.ForeignKey(Photo)
     weight = models.IntegerField(default=0)
     create_time = models.DateField(default=datetime.date.today())
 
