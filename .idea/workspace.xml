@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1dc762-2e0a-49e8-9837-b38e5f0ac2e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onedayonejoke/models.py" afterPath="$PROJECT_DIR$/onedayonejoke/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onedayonejoke/views.py" afterPath="$PROJECT_DIR$/onedayonejoke/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +30,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1045">
+            <state line="54" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1197">
               <folding />
             </state>
           </provider>
@@ -40,7 +39,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onedayonejoke/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="15" selection-start="763" selection-end="763" vertical-scroll-proportion="0.81155777" vertical-offset="114" max-vertical-offset="912">
+            <state line="25" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125" vertical-offset="133" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -50,9 +49,7 @@
         <entry file="file://$PROJECT_DIR$/../simple_http_server/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="42" selection-start="513" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,10 +57,9 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="35" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="2052">
+            <state line="16" column="16" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2147">
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
-                <marker date="1389174051739" expanded="true" signature="1740:1778" placeholder="..." />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +93,8 @@
         <option value="$PROJECT_DIR$/../simple_http_server/engine/models.py" />
         <option value="$PROJECT_DIR$/../simple_http_server/engine/urls.py" />
         <option value="$PROJECT_DIR$/../simple_http_server/engine/views.py" />
-        <option value="$PROJECT_DIR$/onedayonejoke/views.py" />
         <option value="$PROJECT_DIR$/onedayonejoke/models.py" />
+        <option value="$PROJECT_DIR$/onedayonejoke/views.py" />
       </list>
     </option>
   </component>
@@ -377,7 +373,11 @@
       <created>1388978609016</created>
       <updated>1388978609016</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add a imageField for onedayonejoke/models.py and aciton in onedayonejoke/view.py">
+      <created>1389175160570</created>
+      <updated>1389175160570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -385,10 +385,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25510204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2542373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2643764" sideWeight="0.74489796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2643764" sideWeight="0.7457627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -467,23 +467,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
+        <state line="3" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onedayonejoke/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="271">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="271" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="88" selection-end="93" vertical-scroll-proportion="0.18491484" vertical-offset="0" max-vertical-offset="411">
-          <folding />
-        </state>
+        <state line="4" column="9" selection-start="88" selection-end="93" vertical-scroll-proportion="0.18491484" vertical-offset="0" max-vertical-offset="411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/views.py">
@@ -493,28 +487,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="2052">
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <marker date="1389174051739" expanded="true" signature="1740:1778" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="42" selection-start="513" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2147">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onedayonejoke/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="763" selection-end="763" vertical-scroll-proportion="0.81155777" vertical-offset="114" max-vertical-offset="912">
+        <state line="25" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125" vertical-offset="133" max-vertical-offset="912">
           <folding />
         </state>
       </provider>

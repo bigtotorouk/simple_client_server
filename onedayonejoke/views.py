@@ -1,4 +1,4 @@
-from onedayonejoke.models import Joke
+from onedayonejoke.models import Joke, Photo
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 import json
@@ -9,20 +9,17 @@ from django.core.files.base import ContentFile
 def jokes(request):
     if request.method == 'POST':
         # CREATE A JOKE MODLE
+        photo = Photo.objects
         req = json.loads(request.raw_post_data)
         title = req['title']
         content = req['content']
         weight = req['weight']
-        joke = Joke(title=title, content = content, weight = weight)
+        joke = Joke(title=title, content = content, weight = weight, image = photo)
         joke.save()
         tags = req['tags']
         print 'tags ', tags
         joke.add_tags(tags)
-        joke.img = request.FILES.get('image')
-        try:
-            joke.img.save()
-        except:
-            return HttpResponse(json.dumps({"status":"0","msg":"save image error"}))
+
         return HttpResponse(json.dumps({"status": "1", "joke":joke.to_json(), "msg": "success"}), content_type= 'Application/json')
     elif request.method == 'GET':
         # GET LIST OBJECT
@@ -45,6 +42,14 @@ def handle_uploaded_file(filename, f):
     destination.close()
 
 def upload_file(request):
+    if request.method == 'POST':
+        photo = Photo()
+        photo.image = request.FILES.get('image')
+        try:
+            photo.save()
+        except:
+            return HttpResponse(json.dumps({"status": "0", "msg": "Upload image failed"}), content_type= 'Application/json')
+        return HttpResponse(json.dumps({"status": "1", "msg": "Upload image success"}), content_type= 'Application/json')
     return HttpResponse("HelloWorld")
 
 @csrf_exempt
