@@ -41,6 +41,7 @@ def handle_uploaded_file(filename, f):
         destination.write(chunk)
     destination.close()
 
+@csrf_exempt
 def upload_file(request):
     if request.method == 'POST':
         photo = Photo()
