@@ -9,16 +9,21 @@ from django.core.files.base import ContentFile
 def jokes(request):
     if request.method == 'POST':
         # CREATE A JOKE MODLE
-        photo = Photo.objects
         req = json.loads(request.raw_post_data)
         title = req['title']
         content = req['content']
         weight = req['weight']
-        joke = Joke(title=title, content = content, weight = weight, image = photo)
+        joke = Joke(title=title, content = content, weight = weight)
         joke.save()
+        # save the tags for a joke
         tags = req['tags']
         print 'tags ', tags
         joke.add_tags(tags)
+        # save the image for a joke.
+        image_id = req['imageId']
+        photo = Photo.objects.get(id = image_id)
+        joke.image = photo
+        joke.save()
 
         return HttpResponse(json.dumps({"status": "1", "joke":joke.to_json(), "msg": "success"}), content_type= 'Application/json')
     elif request.method == 'GET':
@@ -49,7 +54,7 @@ def upload_file(request):
         try:
             photo.save()
         except:
-            return HttpResponse(json.dumps({"status": "0", "msg": "Upload image failed"}), content_type= 'Application/json')
+            return HttpResponse(json.dumps({"status": "0", "image": photo.to_json(), "msg": "Upload image failed"}), content_type= 'Application/json')
         return HttpResponse(json.dumps({"status": "1", "msg": "Upload image success"}), content_type= 'Application/json')
     return HttpResponse("HelloWorld")
 
