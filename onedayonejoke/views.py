@@ -54,8 +54,8 @@ def upload_file(request):
         try:
             photo.save()
         except:
-            return HttpResponse(json.dumps({"status": "0", "image": photo.to_json(), "msg": "Upload image failed"}), content_type= 'Application/json')
-        return HttpResponse(json.dumps({"status": "1", "msg": "Upload image success"}), content_type= 'Application/json')
+            return HttpResponse(json.dumps({"status": "0", "msg": "Upload image failed"}), content_type= 'Application/json')
+        return HttpResponse(json.dumps({"status": "1", "image": photo.to_json(), "msg": "Upload image success"}), content_type= 'Application/json')
     return HttpResponse("HelloWorld")
 
 @csrf_exempt

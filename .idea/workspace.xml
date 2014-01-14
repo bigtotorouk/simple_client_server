@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1dc762-2e0a-49e8-9837-b38e5f0ac2e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onedayonejoke/models.py" afterPath="$PROJECT_DIR$/onedayonejoke/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onedayonejoke/views.py" afterPath="$PROJECT_DIR$/onedayonejoke/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,7 +48,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="12" selection-start="867" selection-end="871" vertical-scroll-proportion="0.7480315" vertical-offset="0" max-vertical-offset="2185">
+            <state line="57" column="55" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.71062994" vertical-offset="627" max-vertical-offset="2185">
               <folding />
             </state>
           </provider>
@@ -90,7 +89,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="-2" />
     <option name="y" value="-2" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -366,11 +365,15 @@
       <created>1389671283654</created>
       <updated>1389671283654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix bug for post a joke with imageId.">
+      <created>1389687490945</created>
+      <updated>1389687490945</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-2" width="1378" height="744" extended-state="0" />
+    <frame x="-2" y="-2" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -403,7 +406,8 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="git pull" />
     <MESSAGE value="add a imageField for onedayonejoke/models.py and aciton in onedayonejoke/view.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a imageField for onedayonejoke/models.py and aciton in onedayonejoke/view.py" />
+    <MESSAGE value="fix bug for post a joke with imageId." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug for post a joke with imageId." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -494,7 +498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="867" selection-end="871" vertical-scroll-proportion="0.7480315" vertical-offset="0" max-vertical-offset="2185">
+        <state line="57" column="55" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.71062994" vertical-offset="627" max-vertical-offset="2185">
           <folding />
         </state>
       </provider>
