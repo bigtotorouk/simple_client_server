@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1dc762-2e0a-49e8-9837-b38e5f0ac2e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onedayonejoke/views.py" afterPath="$PROJECT_DIR$/onedayonejoke/views.py" />
+      <change type="DELETED" beforePath="C:\Users\bing\django-workspace\simple_client_server\onedayonejoke\images\8371019_1200x1000_0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\bing\django-workspace\simple_client_server\onedayonejoke\images\豌豆荚截图20140105084132.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple_client_server/settings.py" afterPath="$PROJECT_DIR$/simple_client_server/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/simple_client_server.iml" afterPath="$PROJECT_DIR$/.idea/simple_client_server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="05447175-f3f1-45b8-9f3b-84d527c744c0" name="New changelist" comment="" />
@@ -27,40 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/views.py">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple_client_server/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1197">
+            <state line="54" column="42" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.22440945" vertical-offset="912" max-vertical-offset="3211">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/onedayonejoke/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125" vertical-offset="133" max-vertical-offset="912">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../simple_http_server/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="513" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2147">
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +62,6 @@
       <list>
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/simple_client_server/urls.py" />
-        <option value="$PROJECT_DIR$/simple_client_server/settings.py" />
         <option value="$PROJECT_DIR$/server/simple_client_nginx.conf" />
         <option value="$PROJECT_DIR$/server/mysite_uwsgi.ini" />
         <option value="$PROJECT_DIR$/../simple_http_server/engine/models.py" />
@@ -95,6 +69,8 @@
         <option value="$PROJECT_DIR$/../simple_http_server/engine/views.py" />
         <option value="$PROJECT_DIR$/onedayonejoke/models.py" />
         <option value="$PROJECT_DIR$/onedayonejoke/views.py" />
+        <option value="$USER_HOME$/PycharmProjects/Tutorial/thread/thread-pool/example1.py" />
+        <option value="$PROJECT_DIR$/simple_client_server/settings.py" />
       </list>
     </option>
   </component>
@@ -145,7 +121,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_http_server" />
+              <option name="myItemId" value="simple_client_server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,18 +131,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_http_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="simple_client_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="simple_client_server" />
@@ -194,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Tutorial" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -377,7 +343,11 @@
       <created>1389175160570</created>
       <updated>1389175160570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add a imageField for onedayonejoke/models.py and aciton in onedayonejoke/view.py">
+      <created>1389253938059</created>
+      <updated>1389253938059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -385,15 +355,15 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2542373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2542373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2643764" sideWeight="0.7457627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2643764" sideWeight="0.90986395" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09013605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -420,11 +390,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simple_client_server_nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="779" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onedayonejoke/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369" />
@@ -450,11 +415,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="347" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_client_server/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="3192" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114" />
@@ -470,11 +430,6 @@
         <state line="3" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onedayonejoke/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="271" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="9" selection-start="88" selection-end="93" vertical-scroll-proportion="0.18491484" vertical-offset="0" max-vertical-offset="411" />
@@ -482,30 +437,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/engine/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1045">
-          <folding />
-        </state>
+        <state line="54" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1045" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple_http_server/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="513" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="874">
+        <state line="21" column="42" selection-start="513" selection-end="540" vertical-scroll-proportion="0.41404358" vertical-offset="228" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Tutorial/thread/thread-pool/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onedayonejoke/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onedayonejoke/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2147">
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state line="45" column="23" selection-start="1662" selection-end="1662" vertical-scroll-proportion="-0.23114355" vertical-offset="855" max-vertical-offset="2052">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onedayonejoke/models.py">
+    <entry file="file://$PROJECT_DIR$/onedayonejoke/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.7125" vertical-offset="133" max-vertical-offset="912">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_client_server/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="42" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.22440945" vertical-offset="912" max-vertical-offset="3211">
           <folding />
         </state>
       </provider>
