@@ -99,7 +99,7 @@ def list_page(type, page, count):
     data = []
     for joke in jokes:
         data.append(joke.to_json())
-    return HttpResponse(json.dumps({"jokes": data, "page_size": paginator.num_pages, "page_index": page}), content_type='Application/json')
+    return HttpResponse(json.dumps({"status":1, "msg":"获取笑话列表成功", "list": data, "page_size": paginator.num_pages, "page_index": page}), content_type='Application/json')
 
 @csrf_exempt
 def joke_weight(request):
