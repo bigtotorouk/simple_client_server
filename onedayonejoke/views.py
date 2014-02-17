@@ -94,7 +94,8 @@ def list_page(type, page, count):
         jokes = paginator.page(1)
     except EmptyPage:
         # If page is out of range (e.g. 9999), deliver last page of results.
-        jokes = paginator.page(paginator.num_pages)
+        # jokes = paginator.page(paginator.num_pages)
+        jokes = []
 
     data = []
     for joke in jokes:
